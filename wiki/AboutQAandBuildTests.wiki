@@ -1,0 +1,11 @@
+#summary How will tests go on?
+#labels Phase-QA
+
+= Introduction =
+
+How they want :) We just have to keep it organized.
+
+
+= Details =
+
+There really are no restraints to testing and where to report them. If you want to test, it's recommended that you test the latest build in the Downloads section.
