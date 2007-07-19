@@ -1,0 +1,21 @@
+#summary This page shows the key concerns of this open-source project.
+#labels Phase-Design
+
+= Introduction =
+
+The main purpose of this project is to also allow people who are not necessarily code gurus to contribute to making a gadget better.
+
+
+= Details =
+
+You can help by reporting bugs, suggesting features or feature improvements, and by testing product builds. For stuff that doesn't fit into the Downloads, Wiki or Issues sections from the menu on the top, there also are 2 groups where we can discuss: a [http://groups.google.com/group/Google-Desktop-Plugin-GoogleCalculator user group] dedicated to the gadget, and a [http://groups.google.com/group/google-calculator developer group] dedicated to it.
+
+
+
+
+
+
+
+
+
+
