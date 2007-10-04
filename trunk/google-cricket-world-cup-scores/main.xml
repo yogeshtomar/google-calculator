@@ -1,0 +1,115 @@
+<!-- 
+Copyright (C) 2007 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<view height="260" width="195" onopen="view_onOpen()">
+    <img height="100%" name="bg" src="background.png"/>
+    <img height="28" width="28" x="8" src="ball.png"/>
+    <label height="100%" name="nextmatchtime" width="165" x="10" align="center"
+      color="#FFFFFF" font="Arial" valign="middle" wordwrap="true"
+     >Connecting...
+    </label>
+    <div height="210" name="match1" width="195" y="25" visible="false">
+        <img width="180" x="4" src="match_title_bg.png"/>
+        <label height="16" name="matchtitle" width="175" x="6" y="2" align="center"
+          valign="middle" bold="true" color="#FFFFFF" font="Arial"/>
+        <label height="93" name="atoss_label" width="166" visible="false" x="12"
+          y="25" align="center" bold="true" color="#FFFFFF"
+          font="Arial" size="12" valign="middle" wordwrap="true"
+         />
+        <div height="90" name="team1" width="170" x="10" y="27">
+            <img name="country"/>
+            <label height="16" name="cl" width="127" x="39" y="1" bold="true" color="#FFFFFF"
+              font="Arial"/>
+            <label height="16" name="status" width="121" x="40" y="19" bold="true"
+              color="#FFFFFF" font="Arial"/>
+            <label height="16" name="target" width="119" x="40" y="37" bold="true"
+              color="#40FF40" font="Arial" italic="true" size="9"
+             />
+            <label height="16" name="bat1" width="112" y="57" bold="true" color="#FFFFFF"
+              font="Arial"/>
+            <label height="16" name="bat2" width="116" y="75" bold="true" color="#FFFFFF"
+              font="Arial"/>
+            <label height="16" name="bscore1" width="50" x="125" y="57" bold="true"
+              color="#FFFFFF" font="Arial"/>
+            <label height="16" name="bscore2" width="50" x="125" y="75" bold="true"
+              color="#FFFFFF" font="Arial"/>
+        </div>
+        <div height="35" name="team2" width="170" x="10" y="125">
+            <img name="country"/>
+            <label height="16" name="cl" width="127" x="39" y="1" bold="true" color="#FFFFFF"
+              font="Arial"/>
+            <label height="16" name="status" width="121" x="40" y="19" bold="true"
+              color="#FFFFFF" font="Arial"/>
+        </div>
+        <label height="27" name="matchstatus" width="168" x="10" y="168" bold="true"
+          color="#FFFFFF" font="Arial" size="8" wordwrap="true"
+         />
+        <a height="16" name="sc" width="162" x="10" y="192" onclick="showMatchFullScore(0)"
+          bold="true" color="#80FFFF" font="Arial" size="8"
+          >See full scorecard
+        </a>
+    </div>
+    <div height="210" name="match2" width="195" visible="false" y="245"
+     >
+        <img width="180" x="4" src="match_title_bg.png"/>
+        <label height="16" name="matchtitle" width="175" x="6" y="2" align="center"
+          valign="middle" bold="true" color="#FFFFFF" font="Arial"/>
+        <label height="93" name="atoss_label" width="166" visible="false" x="12"
+          y="25" align="center" bold="true" color="#FFFFFF"
+          font="Arial" size="12" valign="middle" wordwrap="true"
+         />
+        <div height="90" name="team1" width="170" x="10" y="27">
+            <img name="country"/>
+            <label height="16" name="cl" width="127" x="39" y="1" bold="true" color="#FFFFFF"
+              font="Arial"/>
+            <label height="16" name="status" width="121" x="40" y="19" bold="true"
+              color="#FFFFFF" font="Arial"/>
+            <label height="16" name="target" width="119" x="40" y="37" bold="true"
+              color="#40FF40" font="Arial" italic="true" size="9"
+             />
+            <label height="16" name="bat1" width="112" y="57" bold="true" color="#FFFFFF"
+              font="Arial"/>
+            <label height="16" name="bat2" width="116" y="75" bold="true" color="#FFFFFF"
+              font="Arial"/>
+            <label height="16" name="bscore1" width="50" x="125" y="57" bold="true"
+              color="#FFFFFF" font="Arial"/>
+            <label height="16" name="bscore2" width="50" x="125" y="75" bold="true"
+              color="#FFFFFF" font="Arial"/>
+        </div>
+        <div height="35" name="team2" width="170" x="10" y="125">
+            <img name="country"/>
+            <label height="16" name="cl" width="127" x="39" y="1" bold="true" color="#FFFFFF"
+              font="Arial"/>
+            <label height="16" name="status" width="121" x="40" y="19" bold="true"
+              color="#FFFFFF" font="Arial"/>
+        </div>
+        <label height="27" name="matchstatus" width="168" x="10" y="168" bold="true"
+          color="#FFFFFF" font="Arial" size="8" wordwrap="true"
+         />
+        <a height="16" name="sc" width="162" x="10" y="192" onclick="showMatchFullScore(1)"
+          bold="true" color="#80FFFF" font="Arial" size="8" visible="false"
+         >See full scorecard
+        </a>
+    </div>
+    <a height="16" name="retry" width="120" visible="false" x="34"
+      y="182" onclick="onRetryConnectClick()" align="center"
+      color="#80FFFF">Retry
+    </a>
+    <label height="16" name="poweredby" width="121" x="58" y="235" size="8"
+      >Data from CricInfo.com
+    </label>
+    <script src="main.js" />
+</view>

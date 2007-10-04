@@ -1,0 +1,16 @@
+<strings>
+  <PLUGIN_NAME>Ticker for Trekkers</PLUGIN_NAME>
+  <PLUGIN_DESCRIPTION>Shows the StarDate on your desktop and keeps you up to date with news for Trek fans.</PLUGIN_DESCRIPTION>
+  <ABOUT_TEXT>Google Ticker for Trekkers Gadget
+Copyright 2006 Google
+Shows the StarDate on your desktop and keeps you up to date with news for Trek fans.
+
+This gadget is in no way affiliated with Paramount Pictures Corp.  Star Trek and its various forms are trademarks of Paramount Pictures Corp.</ABOUT_TEXT>
+  
+  <MENU_DATE_TYPE>StarDate Type</MENU_DATE_TYPE>
+  <DATE_TYPE_TNG>The Next Generation</DATE_TYPE_TNG>
+  <DATE_TYPE_TOS>The Original Series</DATE_TYPE_TOS>
+  <MENU_WITH_ISSUE>Show Issue</MENU_WITH_ISSUE>
+  <MENU_WITH_TIME>Show Time</MENU_WITH_TIME>
+  <MENU_GOOGLE_SEARCH>Google Search</MENU_GOOGLE_SEARCH>
+</strings>
