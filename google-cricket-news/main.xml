@@ -1,0 +1,36 @@
+﻿<!-- 
+Copyright (C) 2007 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<view height="148" width="144" onmouseout="view_onMouseOut()" onmouseover="view_onMouseOver()"
+  onopen="view_onOpen()">
+    <div height="148" name="background" width="144" background="images\base_withshadow.png"/>
+    <div name="headlineBox1" opacity="0" x="5" y="6"/>
+    <div name="headlineBox2" opacity="0" x="5" y="6"/>
+    <div height="50" name="navigation" width="144" x="1" y="38">
+        <button name="navBack" x="1" onclick="navigate('last')" downImage="images\previous_down.png"
+          image="images\previous_default.png" overImage="images\previous_hover.png"/>
+        <button name="navForward" x="112" onclick="navigate('next')" downImage="images\next_down.png"
+          image="images\next_default.png" overImage="images\next_hover.png"/>
+    </div>
+    <label height="16" name="loading_msg" width="95" x="19" y="61" align="center"
+      color="#FFFFFF" valign="middle">&LOADING_MESSAGE;
+    </label>
+    <label height="74" name="error_fetching_videos_msg" width="97" visible="false"
+      x="21" y="35" align="center" color="#FFFFFF" valign="middle"
+      wordwrap="true">&ERROR_FETCHING_VIDEOS;
+    </label>
+    <script src="main.js" />
+</view>

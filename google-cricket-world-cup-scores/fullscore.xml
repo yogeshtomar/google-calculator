@@ -1,0 +1,117 @@
+<!-- 
+Copyright (C) 2007 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<view height="500" resizable="false" width="400" onopen="view_onOpen()">
+    <label name="crr" x="260" y="20" width="135" height="16" 
+      font="Arial" bold="true" size="9" />
+    <label name="rrr" x="260" y="40" width="135" height="16"
+      font="Arial" bold="true" size="9" />
+    <label name="runs_text" x="0" y="4" width="85" height="25"
+      font="Arial" bold="true" size="18" />
+    <label name="overs_text" x="2" y="30" width="89" height="17" bold="true"
+      font="Arial" size="11" />
+    <label name="trgt" height="17" width="89" x="2" y="46"
+      font="Arial" size="8" />
+    <label height="19" name="batting" width="92" x="2" y="71" bold="true"
+      color="#444444" font="Arial" size="11">&strBat;</label>
+    <label height="26" name="bowling" width="89" x="2" y="350" bold="true"
+      color="#444444" font="Arial" size="11">&strBowl;</label>
+      
+    <!-- alternating backgrounds for batsmen and bowlers -->
+    <div height="15" name="d1" width="390" x="4" y="91" background="#E4EBEE"/>
+    <div height="15" name="d2" width="390" x="4" y="123" background="#E4EBEE"/>
+    <div height="15" name="d3" width="390" x="4" y="155" background="#E4EBEE"/>
+    <div height="15" name="d4" width="390" x="4" y="187" background="#E4EBEE"/>
+    <div height="15" name="d5" width="390" x="4" y="219" background="#E4EBEE"/>
+    <div height="15" name="d6" width="390" x="4" y="251" background="#E4EBEE"/>
+    <div height="15" name="d7" width="390" x="4" y="371" background="#E4EBEE"/>
+    <div height="15" name="d8" width="390" x="4" y="403" background="#E4EBEE"/>
+    <div height="15" name="d9" width="390" x="4" y="435" background="#E4EBEE"/>
+    <div height="15" name="d10" width="390" x="4" y="467" background="#E4EBEE"/>
+    
+    <!-- batsmen names -->
+    <label height="15" name="ba1" width="145" x="6" y="91" font="Arial" size="9" />
+    <label height="15" name="ba2" width="145" x="6" y="107" font="Arial" size="9" />
+    <label height="15" name="ba3" width="145" x="6" y="123" font="Arial" size="9" />
+    <label height="15" name="ba4" width="145" x="6" y="139" font="Arial" size="9" />
+    <label height="15" name="ba5" width="145" x="6" y="155" font="Arial" size="9" />
+    <label height="15" name="ba6" width="145" x="6" y="171" font="Arial" size="9" />
+    <label height="15" name="ba7" width="145" x="6" y="187" font="Arial" size="9" />
+    <label height="15" name="ba8" width="145" x="6" y="203" font="Arial" size="9" />
+    <label height="15" name="ba9" width="145" x="6" y="219" font="Arial" size="9" />
+    <label height="15" name="ba10" width="145" x="6" y="235" font="Arial" size="9" />
+    <label height="15" name="ba11" width="145" x="6" y="251" font="Arial" size="9" />
+    
+    <!-- howout -->
+    <label height="15" name="st1" width="180" x="151" y="91" font="Arial" size="9" />
+    <label height="15" name="st2" width="180" x="151" y="107" font="Arial" size="9" />
+    <label height="15" name="st3" width="180" x="151" y="123" font="Arial" size="9" />
+    <label height="15" name="st4" width="180" x="151" y="139" font="Arial" size="9" />
+    <label height="15" name="st5" width="180" x="151" y="155" font="Arial" size="9" />
+    <label height="15" name="st6" width="180" x="151" y="171" font="Arial" size="9" />
+    <label height="15" name="st7" width="180" x="151" y="187" font="Arial" size="9" />
+    <label height="15" name="st8" width="180" x="151" y="203" font="Arial" size="9" />
+    <label height="15" name="st9" width="180" x="151" y="219" font="Arial" size="9" />
+    <label height="15" name="st10" width="180" x="151" y="235" font="Arial" size="9" />
+    <label height="15" name="st11" width="180" x="151" y="251" font="Arial" size="9" />
+    
+    <!-- scores -->
+    <label height="15" name="s1" width="60" x="330" y="91" font="Arial" size="9" bold="false" align="right" />
+    <label height="15" name="s2" width="60" x="330" y="107" font="Arial" size="9" bold="false" align="right" />
+    <label height="15" name="s3" width="60" x="330" y="123" font="Arial" size="9" bold="false" align="right" />
+    <label height="15" name="s4" width="60" x="330" y="139" font="Arial" size="9" bold="false" align="right" />
+    <label height="15" name="s5" width="60" x="330" y="155" font="Arial" size="9" bold="false" align="right" />
+    <label height="15" name="s6" width="60" x="330" y="171" font="Arial" size="9" bold="false" align="right" />
+    <label height="15" name="s7" width="60" x="330" y="187" font="Arial" size="9" bold="false" align="right" />
+    <label height="15" name="s8" width="60" x="330" y="203" font="Arial" size="9" bold="false" align="right" />
+    <label height="15" name="s9" width="60" x="330" y="219" font="Arial" size="9" bold="false" align="right" />
+    <label height="15" name="s10" width="60" x="330" y="235" font="Arial" size="9" bold="false" align="right" />
+    <label height="15" name="s11" width="60" x="330" y="251" font="Arial" size="9" bold="false" align="right" />
+
+    <!-- Fall of wickets -->
+    <label height="16" name="fow" width="125" x="5" y="275" bold="true"
+      color="#444444" font="Arial" size="9">&strFow;</label>
+    <label height="58" name="fowtext" width="390" x="5" y="290"
+      font="Arial" size="8" wordwrap="true"/>
+
+    <!-- bowler names -->
+    <label height="15" name="bo1" width="145" x="6" y="371" font="Arial" size="9" />
+    <label height="15" name="bo2" width="145" x="6" y="387" font="Arial" size="9" />
+    <label height="15" name="bo3" width="145" x="6" y="403" font="Arial" size="9" />
+    <label height="15" name="bo4" width="145" x="6" y="419" font="Arial" size="9" />
+    <label height="15" name="bo5" width="145" x="6" y="435" font="Arial" size="9" />
+    <label height="15" name="bo6" width="145" x="6" y="451" font="Arial" size="9" />
+    <label height="15" name="bo7" width="145" x="6" y="467" font="Arial" size="9" />
+
+    <!-- bowler stats -->
+    <label height="15" name="bs1" width="145" x="151" y="371" font="Arial" size="9" />
+    <label height="15" name="bs2" width="145" x="151" y="387" font="Arial" size="9" />
+    <label height="15" name="bs3" width="145" x="151" y="403" font="Arial" size="9" />
+    <label height="15" name="bs4" width="145" x="151" y="419" font="Arial" size="9" />
+    <label height="15" name="bs5" width="145" x="151" y="435" font="Arial" size="9" />
+    <label height="15" name="bs6" width="145" x="151" y="451" font="Arial" size="9" />
+    <label height="15" name="bs7" width="145" x="151" y="467" font="Arial" size="9" />
+    
+    <!-- status/error layer -->
+    <div name="status" width="100%" height="100%" background="#FFFFFF">
+      <label height="100%" name="status_text" width="100%" align="center"
+        bold="true" color="#646464" font="Arial" size="9" valign="middle"
+        wordwrap="true"/>
+    </div>
+
+    <!-- scripts -->
+    <script src="fullscore.js" />
+</view>

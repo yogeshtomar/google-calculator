@@ -1,0 +1,17 @@
+'Ticker for Trekkers' Google Desktop gadget
+-------------------------------------------
+
+"Shows the StarDate on your desktop and keeps you up to date with news for Trek
+fans."
+
+This is an example of a Google Desktop gadget written entirely using XML and
+JavaScript. Feel free to use it in any way within the bounds of the Apache
+license, included in the COPYING file in this directory.
+
+Disclaimer
+----------
+This gadget is in no way affiliated with CBS Studios, Inc.  Star Trek and
+its various forms are trademarks of CBS Studios, Inc.
+
+Google and Catalin Patulea make no commitment or guarantee, express or implied,
+toward this project, with respect to maintenance or otherwise.

@@ -1,0 +1,32 @@
+﻿<!-- 
+Copyright (C) 2007 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<strings>
+  <GADGET_NAME>Cricket Videos</GADGET_NAME>
+  <GADGET_DESCRIPTION>Watch cricket videos right on your desktop.</GADGET_DESCRIPTION>
+  <GADGET_ABOUT_TEXT>Google Desktop Cricket Videos
+© 2007 Google Inc. All Rights Reserved.
+This gadget fetches the latest videos related to cricket matches from YouTube.com and displays on the desktop. 
+
+Click on the image displayed to watch the video. 
+
+You can view next/previous videos using the next/previous buttons.
+</GADGET_ABOUT_TEXT>
+<LOADING_MESSAGE>Loading..</LOADING_MESSAGE>
+<ERROR_FETCHING_VIDEOS>Network error.. Will try again in 30 minutes</ERROR_FETCHING_VIDEOS>
+<butNext>Next</butNext>
+<butPrev>Previous</butPrev>
+</strings>

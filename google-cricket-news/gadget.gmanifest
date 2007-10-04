@@ -1,0 +1,14 @@
+<gadget minimumGoogleDesktopVersion="4.2006.1008.2039">
+	<about>
+		<name>&GADGET_NAME;</name>
+		<description>&GADGET_DESCRIPTION;</description>
+		<aboutText>&GADGET_ABOUT_TEXT;</aboutText>
+		<smallIcon>plugin_small.gif</smallIcon>
+		<icon>plugin_large.gif</icon>
+		<version>1.0.0.0</version>
+		<author>Google - Open Source</author>
+		<copyright>Copyright 2007 Google Inc. Licensed under the Apache License, Version 2.0 http://www.apache.org/licenses/LICENSE-2.0</copyright>
+		<authorWebsite>http://gadgets.jsplash.com/Open_Source_Gadgets_Cricket_News.htm</authorWebsite>
+		<id>C3FBBFE1-D5CA-4D27-82B0-A7DBB342BEDA</id>
+		<authorEmail></authorEmail></about>
+</gadget>

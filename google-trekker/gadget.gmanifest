@@ -1,0 +1,15 @@
+<gadget minimumGoogleDesktopVersion="4.2006.627.0">
+  <about>
+    <id>1304A138-B986-42e5-BA88-60D95E43C3F6</id>
+    <version>1.0.0.0</version>
+    <author>Google</author>
+    <authorEmail></authorEmail>
+    <authorWebsite>http://desktop.google.com/plugins.html</authorWebsite>
+    <copyright>Copyright (c) 2006 Google Inc.</copyright>
+    <description>&PLUGIN_DESCRIPTION;</description>
+    <name>&PLUGIN_NAME;</name>
+    <aboutText>&ABOUT_TEXT;</aboutText>
+    <smallIcon>icon_small.gif</smallIcon>
+    <icon>icon_large.gif</icon>
+  </about>
+</gadget>

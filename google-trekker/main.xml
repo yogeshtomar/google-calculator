@@ -1,0 +1,21 @@
+<view width="265" height="276" resizable="false" onopen="_MAIN_viewOnOpen()">
+  <script src="main.js"/>
+  <script src="rss.js"/>
+  <script src="entities.js"/>
+  <img src="base.png"/>
+  <div name="title_bg" background="#F5AA35" x="25" y="35" width="214" height="28"/>
+  <div name="news_bg" background="#ffffff" x="25" y="63" width="214" height="186"/>
+  <img x="185" y="35" src="news.png"/>
+  <img x="22" y="32" src="border.png"/>
+  <div name="news" x="25" y="72" width="214" height="222"/>
+  <img src="planet_shadow.png"/>
+  <img src="planet.png"/>
+  <img name="planet" src="planet0.jpg" mask="planet_mask.png"/>
+  <img name="planet_overlay" src="planet0.jpg" mask="planet_mask.png"/>
+  <label name="date_below" x="1" y="1" width="70" height="70"
+    font="Arial Narrow" size ="11" bold="true" color="#333333"
+    align="center" valign="middle" wordwrap="true"/>
+  <label name="date" x="0" y="0" width="70" height="70"
+    font="Arial Narrow" size ="11" bold="true" color="#FFFFFF"
+    align="center" valign="middle" wordwrap="true"/>
+</view>

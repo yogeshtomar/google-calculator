@@ -1,0 +1,25 @@
+<!-- 
+Copyright (C) 2007 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<strings>
+  <GADGET_NAME>Cricket Images and News</GADGET_NAME>
+  <GADGET_DESCRIPTION>Displays cricket news headlines and images.</GADGET_DESCRIPTION>
+  <GADGET_ABOUT_TEXT>Cricket Images and News
+© 2007 Google Inc. All Rights Reserved.
+Displays cricket news headlines and images as a slideshow. Click on the article/image to open the original article in the browser.</GADGET_ABOUT_TEXT>
+  <LOADING_MESSAGE>Loading..</LOADING_MESSAGE>
+  <ERROR_FETCHING_VIDEOS>Network error.. Will retry in 5 minutes</ERROR_FETCHING_VIDEOS>
+</strings>
